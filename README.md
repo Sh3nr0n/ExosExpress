@@ -1,13 +1,14 @@
 # Etapes  exercice #2 : Créer les requêtes d'affichage, d'insertion, de modification et de suppression des images dans une base de données
 
-## Au préalable copier le dossier dans lequel la partie front-end a été réalisée et le renommer "client"
+## Au préalable copier dans le même répertoire le dossier dans lequel la partie front-end a été réalisée et le renommer "client". Faire un git clone du dépôt github et l'appeler "back".
+
 
 ## Paramétrer les serveurs node (back-end et front-end)
 
- - Ouvrir le fichier **package.json** à la racine du projet et entrer la ligne de code suivante pour que le serveur back-end se lance sur un port différent de l'application React :
+ - Ouvrir le fichier **package.json** à la racine du dossier **back** et entrer la ligne de code suivante pour que le serveur back-end se lance sur un port différent de l'application React :
 
         {
-          "name": "app",
+          "name": "back",
           "version": "0.0.0",
           "private": true,
           "scripts": {
@@ -29,7 +30,7 @@
 
 ## Connexion à la base de données
 
-- Dans **app.js** ajouter les lignes suivantes pour établir la connexion à la base :
+- Dans **back/app.js** ajouter les lignes suivantes pour établir la connexion à la base :
 
         // IMPORTANT - database connection
        var mongoose = require('mongoose');
