@@ -1,6 +1,6 @@
 # Etapes  exercice #2 : Créer les requêtes d'affichage, d'insertion, de modification et de suppression des images dans une base de données
 
-## Au préalable copier dans le même répertoire le dossier dans lequel la partie front-end a été réalisée et le renommer "client". Faire un git clone du dépôt github et l'appeler "back".
+## Au préalable copier dans le même répertoire le dossier dans lequel la partie front-end a été réalisée et le renommer "client". Installer ExpressJS dans le dossier "back".
 
 
 ## Paramétrer les serveurs node (back-end et front-end)
